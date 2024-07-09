@@ -1,0 +1,114 @@
+html{
+    box-sizing: border-box;
+        font-family: "Karla", sans-serif;
+        font-size: 17px;
+    
+      }
+body{
+    padding:20px;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+h2,h3,h4,p{
+    margin: 0;
+}
+.card{
+    width: 600px;
+    height: 350px;
+    box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.67);
+-webkit-box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.67);
+-moz-box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.67);
+    border-radius: 5px;
+    overflow: hidden;
+}
+.child1{
+    width: 100%;
+    height: 40%;
+    padding: 20px;
+    margin: 10px;
+}
+.bottomsec{
+    width: 100%;
+    height: 60%;
+    color: white;
+}
+.child2{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #2ab2af;
+    padding: 20px;
+}
+.child3{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #1ac9c5;
+    padding: 20px;
+}
+ .child1 h2{
+    color: #1ac9c5;
+    padding: 5px;
+}
+.child1 h4{
+ color: rgb(97, 41, 170);
+ padding: 5px;
+}
+.child1 p{
+color: grey;
+padding: 5px;
+}
+button{
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    padding: 10px;
+    width: 90%;
+    border-radius: 5px;
+}
+.price{
+    font-weight: 500;
+    font-size: 1.4rem;
+    display: inline-block;
+}
+.month{
+    font-weight: 50;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    left: 1px;
+    font-size: 0.8rem;
+}
+.child2 h3{
+    margin-bottom: 5px;
+}
+.priceTag{
+    margin-bottom: 10px;
+}
+.child2 p{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+}
+ul{
+    padding: 0%;
+    list-style: none;
+    margin-top: 4px;
+    font-size: 0.8rem;
+    opacity: 80%;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.623);
+    transform: scale(1.02);
+}
+footer{
+    margin-top: 1.8%;
+    position: relative;
+    left: 115%;
+    color: #2ab2af;
+}
